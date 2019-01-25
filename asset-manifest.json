@@ -1,13 +1,13 @@
 {
-  "main.css": "/spindown-react/static/css/main.794e517c.chunk.css",
-  "main.js": "/spindown-react/static/js/main.c8fce0df.chunk.js",
-  "main.js.map": "/spindown-react/static/js/main.c8fce0df.chunk.js.map",
-  "static/js/1.ddf46510.chunk.js": "/spindown-react/static/js/1.ddf46510.chunk.js",
-  "static/js/1.ddf46510.chunk.js.map": "/spindown-react/static/js/1.ddf46510.chunk.js.map",
-  "runtime~main.js": "/spindown-react/static/js/runtime~main.0cb57004.js",
-  "runtime~main.js.map": "/spindown-react/static/js/runtime~main.0cb57004.js.map",
-  "static/css/main.794e517c.chunk.css.map": "/spindown-react/static/css/main.794e517c.chunk.css.map",
-  "index.html": "/spindown-react/index.html",
-  "precache-manifest.4af701f68e762fe6272aea313f378618.js": "/spindown-react/precache-manifest.4af701f68e762fe6272aea313f378618.js",
-  "service-worker.js": "/spindown-react/service-worker.js"
+  "main.css": "/static/css/main.794e517c.chunk.css",
+  "main.js": "/static/js/main.c8fce0df.chunk.js",
+  "main.js.map": "/static/js/main.c8fce0df.chunk.js.map",
+  "static/js/1.b5bc75c7.chunk.js": "/static/js/1.b5bc75c7.chunk.js",
+  "static/js/1.b5bc75c7.chunk.js.map": "/static/js/1.b5bc75c7.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.794e517c.chunk.css.map": "/static/css/main.794e517c.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.2ac416e0072be5ed8746488b81662e5e.js": "/precache-manifest.2ac416e0072be5ed8746488b81662e5e.js",
+  "service-worker.js": "/service-worker.js"
 }
