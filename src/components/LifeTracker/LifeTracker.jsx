@@ -190,6 +190,11 @@ const Wrapper = styled.div`
   ${props =>
     props.playerCount > 2 &&
     css`
+      :nth-child(1),
+      :nth-child(2) {
+        transform: rotate(180deg);
+      }
+
       ${Tracker} {
         font-size: 7.5em;
       }
