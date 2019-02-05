@@ -2,7 +2,7 @@
   "name": "spindown-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://outlaw-ux.github.io/spindown-react",
+  "homepage": "https://spindown.io",
   "dependencies": {
     "mousetrap": "^1.6.2",
     "react": "^16.7.0",
