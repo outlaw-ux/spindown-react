@@ -173,7 +173,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   flex-direction: ${props => (props.playerCount > 2 ? 'row' : 'column')};
-  font-size: 16px;
+  font-size: 13px;
   flex: 1;
   justify-content: space-between;
 
@@ -189,12 +189,29 @@ const Wrapper = styled.div`
 
   ${props =>
     props.playerCount > 2 &&
+    props.playerCount < 5 &&
     css`
       :nth-child(1),
       :nth-child(2) {
         transform: rotate(180deg);
       }
+    `};
 
+  ${props =>
+    props.playerCount > 4 &&
+    props.playerCount < 7 &&
+    css`
+      :nth-child(1),
+      :nth-child(2),
+      :nth-child(3) {
+        transform: rotate(180deg);
+      }
+    `};
+
+  ${props =>
+    props.playerCount > 2 &&
+    props.playerCount < 7 &&
+    css`
       ${Tracker} {
         font-size: 7.5em;
       }

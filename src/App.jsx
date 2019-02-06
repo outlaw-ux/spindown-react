@@ -13,6 +13,27 @@ class App extends Component {
     players: [],
   };
 
+  componentDidMount() {
+    // window.addEventListener('beforeinstallprompt', ev => {
+    //   if (isStandalone()) {
+    //     // PWA already installed.
+    //     event.preventDefault();
+    //     return false;
+    //   } else {
+    //     // PWA not installed.
+    //   }
+    // });
+    // function isStandalone() {
+    //   // Check if device supports service workers
+    //   if (!('serviceWorker' in window.navigator)) return false;
+    //   // Check for Android
+    //   if (window.matchMedia('(display-mode: standalone)').matches) return true;
+    //   // Check for iOS
+    //   if (window.navigator['standalone'] == true) return true;
+    //   return false;
+    // }
+  }
+
   createGame = (playerCount, startingLife) => {
     const players = generatePlayers(playerCount, startingLife);
     console.log('players', playerCount, startingLife, players);

@@ -46,6 +46,7 @@ const Wrapper = styled.div`
   width: 100vw;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  padding: 1em 0;
 
   @media only screen and (min-width: 700px) {
     flex-direction: row;

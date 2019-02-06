@@ -44,7 +44,7 @@ class NewGame extends React.Component {
 
         <SetupSteps>
           <StepItem>
-            <StepName>Choose Starting Life</StepName>
+            <StepName>Starting Life</StepName>
             <StartingLifeInput
               type="number"
               value={startingLife}
@@ -53,7 +53,7 @@ class NewGame extends React.Component {
           </StepItem>
 
           <StepItem>
-            <StepName>Choose Number of Players</StepName>
+            <StepName>Number of Players</StepName>
             <PlayerCount onChange={this.updatePlayerCount}>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -160,14 +160,6 @@ const PlayerCount = styled.select`
   position: relative;
   width: 100px;
   margin-left: 1em;
-
-  :after {
-    content: 'OPEN';
-    color: red;
-    position: absolute;
-    right: 0;
-    top: 50%;
-  }
 `;
 
 export default NewGame;
